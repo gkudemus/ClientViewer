@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+## How to run the application
+- In new terminal - Go to */mock-api/* (starts up the mock api)
+  - `npm install`
+  - `npm run build`
+  - `npm start`
+- In new terminal - Go to */ui/* (starts up the UI)
+  - `npm install`
+  - `npm start`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features:
+- lets you add new Clients, Client info includes firstName, lastName, email, and phoneNumber
+- Form validation, all fields are mandatory, 2 step form won't proceed to next page or submission if all fields are not populated
+- newly added client will automatically display after closing modal, list automatically updates
+- added a bonus feature: pagination, just for the scenario where there's a huge amount of client data
+- Search bar, it also works well with pagination. Even if you're anywhere in the pagination pages, search bar still works
 
-## Available Scripts
+Screenshots:
 
-In the project directory, you can run:
+Client List Viewer 
 
-### `npm start`
+Web:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![image](https://github.com/gkudemus/ClientViewer/assets/6787094/36525d28-8c22-462f-ba34-93fea144f93b)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Mobile:
 
-### `npm test`
+![image](https://github.com/gkudemus/ClientViewer/assets/6787094/c1f4ca7a-a8e1-4b9e-b9ff-95e44200268b)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Modal Step 1:
 
-### `npm run build`
+Web:
+![image](https://github.com/gkudemus/ClientViewer/assets/6787094/1b9dccf4-8ba7-4c93-a282-bc16123142be)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Mobile:
+![image](https://github.com/gkudemus/ClientViewer/assets/6787094/4dc1aeaa-7923-42dd-b528-35c727acc9aa)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Modal Step 2:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Web:
 
-### `npm run eject`
+![image](https://github.com/gkudemus/ClientViewer/assets/6787094/bb227d1d-c713-4c66-bf4a-d27f785944bf)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Mobile:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image](https://github.com/gkudemus/ClientViewer/assets/6787094/50606406-9ad8-4327-9951-895013fc5e90)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Demo: 
+https://watch.screencastify.com/v/F9rNKMZt79C8Kh2b8yAb

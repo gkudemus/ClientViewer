@@ -23,7 +23,8 @@ const useStyles = makeStyles((theme) => ({
   },
   contentContainerPaper: {
     margin: "auto", 
-    marginTop: 3
+    minWidth: '500px',
+    maxWidth: '1400px'
   },
   headerTitle: {
     textAlign: "start",
@@ -42,7 +43,7 @@ function Clients() {
   const [searchQuery, setSearchQuery] = useState('')
   const [isDataUpdated, setIsDataUpdated] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const pageSize = 10
+  const pageSize = 15
   const classes = useStyles();
 
   const handleOpen = () => {
